@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<XMI xmi.version="1.2" xmlns:UML="http://schema.omg.org/spec/UML/1.4" timestamp="2026-10-15T10:30:00" verified="false">
+ <XMI.header>
+  <XMI.documentation>
+   <XMI.exporter>umbrello uml modeller http://umbrello.kde.org</XMI.exporter>
+   <XMI.exporterVersion>1.6.0</XMI.exporterVersion>
+   <XMI.exporterEncoding>UnicodeUTF8</XMI.exporterEncoding>
+  </XMI.documentation>
+  <XMI.metamodel xmi.name="UML" href="UML.xml" xmi.version="1.4"/>
+ </XMI.header>
+ <XMI.content>
+  <UML:Model isSpecification="false" isAbstract="false" isLeaf="false" xmi.id="m1" isRoot="false" name="Online Course Reservation System">
+   <UML:Namespace.ownedElement>
+    <UML:Package isSpecification="false" isLeaf="false" visibility="public" isRoot="false" isAbstract="false" xmi.id="folderUC" name="Use Case View">
+     <UML:Namespace.ownedElement>
+      <UML:Actor isSpecification="false" isLeaf="false" visibility="public" isRoot="false" isAbstract="false" xmi.id="a1" name="Student"/>
+      <UML:Actor isSpecification="false" isLeaf="false" visibility="public" isRoot="false" isAbstract="false" xmi.id="a2" name="University"/>
+      <UML:Actor isSpecification="false" isLeaf="false" visibility="public" isRoot="false" isAbstract="false" xmi.id="a3" name="Central Management System"/>
+      <UML:UseCase isSpecification="false" isLeaf="false" visibility="public" isRoot="false" isAbstract="false" xmi.id="u1" name="Browse Courses"/>
+      <UML:UseCase isSpecification="false" isLeaf="false" visibility="public" isRoot="false" isAbstract="false" xmi.id="u2" name="Select Course"/>
+      <UML:UseCase isSpecification="false" isLeaf="false" visibility="public" isRoot="false" isAbstract="false" xmi.id="u3" name="Pay Course Fee"/>
+      <UML:UseCase isSpecification="false" isLeaf="false" visibility="public" isRoot="false" isAbstract="false" xmi.id="u4" name="View Enrollment Status"/>
+      <UML:UseCase isSpecification="false" isLeaf="false" visibility="public" isRoot="false" isAbstract="false" xmi.id="u5" name="Check Seat Availability"/>
+      <UML:UseCase isSpecification="false" isLeaf="false" visibility="public" isRoot="false" isAbstract="false" xmi.id="u6" name="Enroll Student in Course"/>
+      <UML:UseCase isSpecification="false" isLeaf="false" visibility="public" isRoot="false" isAbstract="false" xmi.id="u7" name="Send Enrollment Confirmation"/>
+      <UML:UseCase isSpecification="false" isLeaf="false" visibility="public" isRoot="false" isAbstract="false" xmi.id="u8" name="Join Waiting List"/>
+      <UML:UseCase isSpecification="false" isLeaf="false" visibility="public" isRoot="false" isAbstract="false" xmi.id="u9" name="Manage Course Catalog"/>
+      <UML:UseCase isSpecification="false" isLeaf="false" visibility="public" isRoot="false" isAbstract="false" xmi.id="u10" name="Update Seat Count"/>
+      <UML:Association isSpecification="false" isLeaf="false" visibility="public" isRoot="false" isAbstract="false" xmi.id="s1" name="">
+       <UML:Association.connection>
+        <UML:AssociationEnd isSpecification="false" visibility="public" xmi.id="s1a" aggregation="none" isNavigable="true" type="a1" name=""/>
+        <UML:AssociationEnd isSpecification="false" visibility="public" xmi.id="s1b" aggregation="none" isNavigable="true" type="u1" name=""/>
+       </UML:Association.connection>
+      </UML:Association>
+      <UML:Association isSpecification="false" isLeaf="false" visibility="public" isRoot="false" isAbstract="false" xmi.id="s2" name="">
+       <UML:Association.connection>
+        <UML:AssociationEnd isSpecification="false" visibility="public" xmi.id="s2a" aggregation="none" isNavigable="true" type="a1" name=""/>
+        <UML:AssociationEnd isSpecification="false" visibility="public" xmi.id="s2b" aggregation="none" isNavigable="true" type="u2" name=""/>
+       </UML:Association.connection>
+      </UML:Association>
+      <UML:Association isSpecification="false" isLeaf="false" visibility="public" isRoot="false" isAbstract="false" xmi.id="s3" name="">
+       <UML:Association.connection>
+        <UML:AssociationEnd isSpecification="false" visibility="public" xmi.id="s3a" aggregation="none" isNavigable="true" type="a1" name=""/>
+        <UML:AssociationEnd isSpecification="false" visibility="public" xmi.id="s3b" aggregation="none" isNavigable="true" type="u3" name=""/>
+       </UML:Association.connection>
+      </UML:Association>
+      <UML:Association isSpecification="false" isLeaf="false" visibility="public" isRoot="false" isAbstract="false" xmi.id="s4" name="">
+       <UML:Association.connection>
+        <UML:AssociationEnd isSpecification="false" visibility="public" xmi.id="s4a" aggregation="none" isNavigable="true" type="a1" name=""/>
+        <UML:AssociationEnd isSpecification="false" visibility="public" xmi.id="s4b" aggregation="none" isNavigable="true" type="u4" name=""/>
+       </UML:Association.connection>
+      </UML:Association>
+      <UML:Association isSpecification="false" isLeaf="false" visibility="public" isRoot="false" isAbstract="false" xmi.id="s5" name="">
+       <UML:Association.connection>
+        <UML:AssociationEnd isSpecification="false" visibility="public" xmi.id="s5a" aggregation="none" isNavigable="true" type="a2" name=""/>
+        <UML:AssociationEnd isSpecification="false" visibility="public" xmi.id="s5b" aggregation="none" isNavigable="true" type="u5" name=""/>
+       </UML:Association.connection>
+      </UML:Association>
+      <UML:Association isSpecification="false" isLeaf="false" visibility="public" isRoot="false" isAbstract="false" xmi.id="s6" name="">
+       <UML:Association.connection>
+        <UML:AssociationEnd isSpecification="false" visibility="public" xmi.id="s6a" aggregation="none" isNavigable="true" type="a2" name=""/>
+        <UML:AssociationEnd isSpecification="false" visibility="public" xmi.id="s6b" aggregation="none" isNavigable="true" type="u6" name=""/>
+       </UML:Association.connection>
+      </UML:Association>
+      <UML:Association isSpecification="false" isLeaf="false" visibility="public" isRoot="false" isAbstract="false" xmi.id="s7" name="">
+       <UML:Association.connection>
+        <UML:AssociationEnd isSpecification="false" visibility="public" xmi.id="s7a" aggregation="none" isNavigable="true" type="a2" name=""/>
+        <UML:AssociationEnd isSpecification="false" visibility="public" xmi.id="s7b" aggregation="none" isNavigable="true" type="u7" name=""/>
+       </UML:Association.connection>
+      </UML:Association>
+      <UML:Association isSpecification="false" isLeaf="false" visibility="public" isRoot="false" isAbstract="false" xmi.id="s8" name="">
+       <UML:Association.connection>
+        <UML:AssociationEnd isSpecification="false" visibility="public" xmi.id="s8a" aggregation="none" isNavigable="true" type="a3" name=""/>
+        <UML:AssociationEnd isSpecification="false" visibility="public" xmi.id="s8b" aggregation="none" isNavigable="true" type="u9" name=""/>
+       </UML:Association.connection>
+      </UML:Association>
+      <UML:Association isSpecification="false" isLeaf="false" visibility="public" isRoot="false" isAbstract="false" xmi.id="s9" name="">
+       <UML:Association.connection>
+        <UML:AssociationEnd isSpecification="false" visibility="public" xmi.id="s9a" aggregation="none" isNavigable="true" type="a3" name=""/>
+        <UML:AssociationEnd isSpecification="false" visibility="public" xmi.id="s9b" aggregation="none" isNavigable="true" type="u10" name=""/>
+       </UML:Association.connection>
+      </UML:Association>
+      <UML:Dependency isSpecification="false" visibility="public" xmi.id="d1" client="u6" supplier="u5" name="&lt;&lt;include&gt;&gt;"/>
+      <UML:Dependency isSpecification="false" visibility="public" xmi.id="d2" client="u8" supplier="u5" name="&lt;&lt;extend&gt;&gt;"/>
+     </UML:Namespace.ownedElement>
+    </UML:Package>
+   </UML:Namespace.ownedElement>
+  </UML:Model>
+ </XMI.content>
+ <XMI.extensions xmi.extender="umbrello">
+  <docsettings viewid="v1" documentation="Online Course Reservation System - use case model" uniqueid="u99"/>
+  <diagrams>
+   <diagram snapgrid="0" showattsig="1" fillcolor="#ffffc0" linewidth="0" zoom="100" showgrid="0" showopsig="1" showpubliconly="0" snapx="10" snapy="10" showatts="1" xmi.id="v1" documentation="" type="2" showops="1" showpackage="0" name="Use Case Diagram" localid="-1" linecolor="#990000" canvasheight="730" canvaswidth="1350" textcolor="#000000" font="Sans Serif,10,-1,5,50,0,0,0,0,0" usefillcolor="1" isopen="1" showstereotype="1">
+    <widgets>
+     <actorwidget xmi.id="a1" x="30" y="155" width="90" height="90" textcolor="#000000" linecolor="#990000" fillcolor="#ffffc0" linewidth="0" usefillcolor="1" isinstance="0" showstereotype="1" font="Sans Serif,10,-1,5,50,0,0,0,0,0"/>
+     <actorwidget xmi.id="a2" x="30" y="470" width="90" height="90" textcolor="#000000" linecolor="#990000" fillcolor="#ffffc0" linewidth="0" usefillcolor="1" isinstance="0" showstereotype="1" font="Sans Serif,10,-1,5,50,0,0,0,0,0"/>
+     <actorwidget xmi.id="a3" x="1210" y="245" width="90" height="90" textcolor="#000000" linecolor="#990000" fillcolor="#ffffc0" linewidth="0" usefillcolor="1" isinstance="0" showstereotype="1" font="Sans Serif,10,-1,5,50,0,0,0,0,0"/>
+     <usecasewidget xmi.id="u1" x="190" y="40" width="220" height="50" textcolor="#000000" linecolor="#990000" fillcolor="#ffffc0" linewidth="0" usefillcolor="1" isinstance="0" showstereotype="1" font="Sans Serif,10,-1,5,50,0,0,0,0,0"/>
+     <usecasewidget xmi.id="u2" x="190" y="130" width="220" height="50" textcolor="#000000" linecolor="#990000" fillcolor="#ffffc0" linewidth="0" usefillcolor="1" isinstance="0" showstereotype="1" font="Sans Serif,10,-1,5,50,0,0,0,0,0"/>
+     <usecasewidget xmi.id="u3" x="190" y="220" width="220" height="50" textcolor="#000000" linecolor="#990000" fillcolor="#ffffc0" linewidth="0" usefillcolor="1" isinstance="0" showstereotype="1" font="Sans Serif,10,-1,5,50,0,0,0,0,0"/>
+     <usecasewidget xmi.id="u4" x="190" y="310" width="220" height="50" textcolor="#000000" linecolor="#990000" fillcolor="#ffffc0" linewidth="0" usefillcolor="1" isinstance="0" showstereotype="1" font="Sans Serif,10,-1,5,50,0,0,0,0,0"/>
+     <usecasewidget xmi.id="u5" x="190" y="400" width="220" height="50" textcolor="#000000" linecolor="#990000" fillcolor="#ffffc0" linewidth="0" usefillcolor="1" isinstance="0" showstereotype="1" font="Sans Serif,10,-1,5,50,0,0,0,0,0"/>
+     <usecasewidget xmi.id="u6" x="190" y="490" width="220" height="50" textcolor="#000000" linecolor="#990000" fillcolor="#ffffc0" linewidth="0" usefillcolor="1" isinstance="0" showstereotype="1" font="Sans Serif,10,-1,5,50,0,0,0,0,0"/>
+     <usecasewidget xmi.id="u7" x="190" y="580" width="220" height="50" textcolor="#000000" linecolor="#990000" fillcolor="#ffffc0" linewidth="0" usefillcolor="1" isinstance="0" showstereotype="1" font="Sans Serif,10,-1,5,50,0,0,0,0,0"/>
+     <usecasewidget xmi.id="u8" x="530" y="400" width="220" height="50" textcolor="#000000" linecolor="#990000" fillcolor="#ffffc0" linewidth="0" usefillcolor="1" isinstance="0" showstereotype="1" font="Sans Serif,10,-1,5,50,0,0,0,0,0"/>
+     <usecasewidget xmi.id="u9" x="870" y="220" width="220" height="50" textcolor="#000000" linecolor="#990000" fillcolor="#ffffc0" linewidth="0" usefillcolor="1" isinstance="0" showstereotype="1" font="Sans Serif,10,-1,5,50,0,0,0,0,0"/>
+     <usecasewidget xmi.id="u10" x="870" y="310" width="220" height="50" textcolor="#000000" linecolor="#990000" fillcolor="#ffffc0" linewidth="0" usefillcolor="1" isinstance="0" showstereotype="1" font="Sans Serif,10,-1,5,50,0,0,0,0,0"/>
+    </widgets>
+    <messages/>
+    <associations>
+     <assocwidget xmi.id="s1" type="503" widgetaid="a1" widgetbid="u1" indexa="1" totalcounta="2" indexb="1" totalcountb="2" linecolor="#990000" linewidth="0"><linepath><startpoint startx="75" starty="200"/><endpoint endx="300" endy="65"/></linepath></assocwidget>
+     <assocwidget xmi.id="s2" type="503" widgetaid="a1" widgetbid="u2" indexa="1" totalcounta="2" indexb="1" totalcountb="2" linecolor="#990000" linewidth="0"><linepath><startpoint startx="75" starty="200"/><endpoint endx="300" endy="155"/></linepath></assocwidget>
+     <assocwidget xmi.id="s3" type="503" widgetaid="a1" widgetbid="u3" indexa="1" totalcounta="2" indexb="1" totalcountb="2" linecolor="#990000" linewidth="0"><linepath><startpoint startx="75" starty="200"/><endpoint endx="300" endy="245"/></linepath></assocwidget>
+     <assocwidget xmi.id="s4" type="503" widgetaid="a1" widgetbid="u4" indexa="1" totalcounta="2" indexb="1" totalcountb="2" linecolor="#990000" linewidth="0"><linepath><startpoint startx="75" starty="200"/><endpoint endx="300" endy="335"/></linepath></assocwidget>
+     <assocwidget xmi.id="s5" type="503" widgetaid="a2" widgetbid="u5" indexa="1" totalcounta="2" indexb="1" totalcountb="2" linecolor="#990000" linewidth="0"><linepath><startpoint startx="75" starty="515"/><endpoint endx="300" endy="425"/></linepath></assocwidget>
+     <assocwidget xmi.id="s6" type="503" widgetaid="a2" widgetbid="u6" indexa="1" totalcounta="2" indexb="1" totalcountb="2" linecolor="#990000" linewidth="0"><linepath><startpoint startx="75" starty="515"/><endpoint endx="300" endy="515"/></linepath></assocwidget>
+     <assocwidget xmi.id="s7" type="503" widgetaid="a2" widgetbid="u7" indexa="1" totalcounta="2" indexb="1" totalcountb="2" linecolor="#990000" linewidth="0"><linepath><startpoint startx="75" starty="515"/><endpoint endx="300" endy="605"/></linepath></assocwidget>
+     <assocwidget xmi.id="s8" type="503" widgetaid="a3" widgetbid="u9" indexa="1" totalcounta="2" indexb="1" totalcountb="2" linecolor="#990000" linewidth="0"><linepath><startpoint startx="1255" starty="290"/><endpoint endx="980" endy="245"/></linepath></assocwidget>
+     <assocwidget xmi.id="s9" type="503" widgetaid="a3" widgetbid="u10" indexa="1" totalcounta="2" indexb="1" totalcountb="2" linecolor="#990000" linewidth="0"><linepath><startpoint startx="1255" starty="290"/><endpoint endx="980" endy="335"/></linepath></assocwidget>
+     <assocwidget xmi.id="d1" type="502" widgetaid="u6" widgetbid="u5" indexa="1" totalcounta="2" indexb="1" totalcountb="2" linecolor="#990000" linewidth="0"><linepath><startpoint startx="300" starty="515"/><endpoint endx="300" endy="425"/></linepath></assocwidget>
+     <assocwidget xmi.id="d2" type="502" widgetaid="u8" widgetbid="u5" indexa="1" totalcounta="2" indexb="1" totalcountb="2" linecolor="#990000" linewidth="0"><linepath><startpoint startx="640" starty="425"/><endpoint endx="300" endy="425"/></linepath></assocwidget>
+    </associations>
+   </diagram>
+  </diagrams>
+  <listview>
+   <listitem open="1" type="800" label="Views">
+    <listitem open="1" type="821" label="Use Case View">
+     <listitem open="1" type="830" id="v1" label="Use Case Diagram"/>
+    </listitem>
+   </listitem>
+  </listview>
+ </XMI.extensions>
+</XMI>
